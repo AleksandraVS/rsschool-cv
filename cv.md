@@ -3,7 +3,8 @@
 ## Contacts
 
 * VK --- [https://vk.com/egorkres](https://vk.com/egorkres)  
-* Telegram ---  [https://t.me/vrublevskaya](https://t.me/vrublevskaya) 
+* Telegram ---  [https://t.me/vrublevskaya](https://t.me/vrublevskaya)
+* Instagram ---  [https://www.instagram.com/vrublevska.ya/](https://www.instagram.com/vrublevska.ya/)
 * Gmail --- [avrublevskaa@gmail.com](avrublevskaa@gmail.com)  
 * Mobile number --- +375445498306  
 
