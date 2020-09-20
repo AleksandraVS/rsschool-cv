@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="cv.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+<title>CV</title>
+</head>
+
+<body>
+<div class="container">
+<header class="page-header">
+
+</div>
+</header>
+
+<section class="hero-image">
+<div class="container">
+<h1 class="heading"> Aleksandra Vrublevskaya</h1>
+</div>
+</section>
+
+<section class="intro">
+<div class="container">
+<figure class = "user-image">
+<img src="fl5g6Sw0ZWk.jpg" width="300" height="400" alt="Photo">
+</figure>
+<div>
+<h3>Contacts</h3>
+<p>
+  <ul>
+    <li><a href="https://vk.com/egorkres">https://vk.com/egorkres</a> - VK</li>
+    <li><a href="https://t.me/vrublevskaya">https://t.me/vrublevskaya</a> - Telegram</li>
+    <li><a href="https://www.instagram.com/vrublevska.ya/">https://www.instagram.com/vrublevska.ya/</a> - Instagram</li>
+    <li><a href="avrublevskaa@gmail.com">avrublevskaa@gmail.com</a> - Gmail</li>
+    <li> Mobile number — +375445498306</li>
+    </ul>
+</p>
+<h3>Information about me</h3>
+<p>My goal is JS learning and employment. Now I am 2nd year student of BSU at the Faculty of Applied Mathematics and Computer science. 
+  I try to combine RS course and studying at the university.I have been studying C++, HTML and CSS for a year there.
+   I realized that I like to solve problems more than to make up sites. So I also want to explore backend development. 
+   Perhaps my strength is the interest in the task, and the desire to learn new information.</p>
+<h3>Skills</h3>
+<p>The beggining level of C++, HTML, CSS and JS</p>
+</div>
+
+<section class="portfolio">
+<div class="container">
+<h2 class="subheading">Code example</h2>
+<h3>C++</h3>
+<code><pre>
+  C++
+  #include <iostream>
+  using namespace std;
+  int main()
+  {
+  setlocale(0, "");
+  int rows, cols;
+  cout << "Введите число строк и столбцов:";
+  cin >> rows >> cols;
+  if (cols == rows || cols <= 1 || rows <= 1)
+  cout << "Недопустимое число столбцов или строк";
+  else
+  {
+  
+    int** arr = new int* [rows];
+    for (int i = 0; i < rows; i++)
+    {
+      arr[i] = new int[cols];
+    }
+  
+    for (int i = 0; i < rows; i++) {
+      for (int j = 0; j < cols; j++)
+      {
+        cin >> arr[i][j];
+      }
+    }
+  
+    for (int i = 0; i < rows; i++) {
+      for (int j = 0; j < cols; j++)
+      {
+        cout << arr[i][j] << " ";
+      }
+      cout << endl;
+    }
+    cout << endl;
+    int sum = 0;
+    for (int i = 0; i < rows; i++) {
+      for (int j = 0; j < cols; j++)
+      {
+        if (arr[i][j] == 0)
+        {
+          for (int k = 0; k < rows; k++)
+          {
+            sum += arr[k][j];
+          }
+        }
+      }
+    }
+    cout << " Сумма элементов в столбцах, содержащих хотя бы один ноль:" <<" "<< sum;
+    for (int i = 0; i < rows; i++)
+    {
+      delete[] arr[i];
+    }
+    delete[] arr;
+  }
+  return 0;
+  }
+}
+
+
+<h3>Examples of HTML and CSS layout</h3>
+</div>
+</section>
+<section>
+<div class="container">
+<h2 class="subheading">Education</h2>
+<p>Student of BSU, faculty of Applied Math and computer science, specialty-applied Informatics, 2nd year.</p>
+<h3>Completed courses:</h3>
+<p>
+<ul>
+  <li><a href="https://ru.code-basics.com/languages/javascript">https://ru.code-basics.com/languages/javascript</a> - JavaScript for beginners</li>
+  <li><a href="https://ru.code-basics.com/languages/css">https://ru.code-basics.com/languages/css</a> - CSS for beginners</li>
+  <li><a href="https://ru.code-basics.com/languages/html">https://ru.code-basics.com/languages/html</a> - HTML for beginners</li>
+  <li><a href="https://ru.hexlet.io/courses/introduction_to_programming">https://ru.hexlet.io/courses/introduction_to_programming</a> - Introduction to the programming</li>
+</ul>
+</p>
+<h3>English</h3>
+<p>The level of language proficiency: B1</p>
+</div>
+</body>
+</html>
